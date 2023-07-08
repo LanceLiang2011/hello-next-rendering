@@ -7,7 +7,8 @@ function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children} <Footer />
+        {children}
+        <Footer />
       </body>
     </html>
   );
